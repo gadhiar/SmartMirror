@@ -48,6 +48,7 @@ main_root = None
 
 # maps open weather icons to
 # icon reading is not impacted by the 'lang' parameter
+<<<<<<< HEAD
 icon_lookup = {
     'clear-day': "Images/Sun.png",  # clear sky day
     'wind': "Images/Wind.png",  # wind
@@ -62,6 +63,37 @@ icon_lookup = {
     'thunderstorm': "Images/Storm.png",  # thunderstorm
     'tornado': "Images/Tornado.png",  # tornado
     'hail': "Images/Hail.png"  # hail
+||||||| merged common ancestors
+icon_lookup = {
+    'clear-day': "Images/Sun.png",  # clear sky day
+    'wind': "Images/Wind.png",  # wind
+    'cloudy': "Images/Cloud.png",  # cloudy day
+    'partly-cloudy-day': "Images/PartlySunny.png",  # partly cloudy day
+    'rain': "Images/Rain.png",  # rain day
+    'snow': "Images/Snow.png",  # snow day
+    'snow-thin': "Images/Snow.png",  # sleet day
+    'fog': "Images/Haze.png",  # fog day
+    'clear-night': "Images/Moon.png",  # clear sky night
+    'partly-cloudy-night': "Images/PartlyMoon.png",  # scattered clouds night
+    'thunderstorm': "Images/Storm.png",  # thunderstorm
+    'tornado': "Images/Tornado.png",  # tornado
+    'hail': "Images/Hail.png"  # hail
+=======
+icon_lookup = {
+    'clear-day': "Images/Sun.png",  # clear sky day
+    'wind': "Images/Wind.png",  # wind
+    'cloudy': "Images/Cloud.png",  # cloudy day
+    'partly-cloudy-day': "Images/PartlySunny.png",  # partly cloudy day
+    'rain': "Images/Rain.png",  # rain day
+    'snow': "Images/Snow.png",  # snow day
+    'snow-thin': "Images/Snow.png",  # sleet day
+    'fog': "Images/Haze.png",  # fog day
+    'clear-night': "Images/Moon.png",  # clear sky night
+    'partly-cloudy-night': "Images/artlyMoon.png",  # scattered clouds night
+    'thunderstorm': "Images/Storm.png",  # thunderstorm
+    'tornado': "Images/Tornado.png",  # tornado
+    'hail': "Images/Hail.png"  # hail
+>>>>>>> 95bff1e214b54df901c50516ae9a121532daf1f7
 }
 
 
