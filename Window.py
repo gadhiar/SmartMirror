@@ -58,7 +58,7 @@ icon_lookup = {
     'snow-thin': "Images/Snow.png",  # sleet day
     'fog': "Images/Haze.png",  # fog day
     'clear-night': "Images/Moon.png",  # clear sky night
-    'partly-cloudy-night': "PImages/artlyMoon.png",  # scattered clouds night
+    'partly-cloudy-night': "Images/PartlyMoon.png",  # scattered clouds night
     'thunderstorm': "Images/Storm.png",  # thunderstorm
     'tornado': "Images/Tornado.png",  # tornado
     'hail': "Images/Hail.png"  # hail

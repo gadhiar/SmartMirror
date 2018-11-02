@@ -6,7 +6,7 @@ from threading import *
 from datetime import datetime
 
 # ML Classifier to define hands
-hand_cascade = cv2.CascadeClassifier('E:\Mirror\Gest.xml')
+hand_cascade = cv2.CascadeClassifier('insert path of Gest.xml here')
 
 # set array if tuples that hold x and y values of the location of the hand and time
 posx = []
