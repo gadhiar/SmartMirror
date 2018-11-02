@@ -7,7 +7,7 @@ SmartMirror project written in Python
   - Python 3.x
   - [Requirements File](requirements.txt)
 - Hardware :
-  - [Two Way Mirror (18"x14"](https://www.twowaymirrors.com/smart-mirror/)
+  - [Two Way Mirror (18"x14")](https://www.twowaymirrors.com/smart-mirror/)
   - Raspberry Pi 3b+ (You can get away with an older model)
   - Camera (I'm using the PSEye Modified but any camera should do):
       -  I also haven't set up motion capabilites yet either
