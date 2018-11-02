@@ -10,7 +10,7 @@ from httplib2 import Http
 from oauth2client import file, client, tools
 import datetime
 import dateutil.parser
-from hand_recognition import start
+from bin.hand_recognition import start
 
 """
 Flag for enabling gesture control: Defaulted to off.
@@ -49,19 +49,19 @@ main_root = None
 # maps open weather icons to
 # icon reading is not impacted by the 'lang' parameter
 icon_lookup = {
-    'clear-day': "Sun.png",  # clear sky day
-    'wind': "Wind.png",  # wind
-    'cloudy': "Cloud.png",  # cloudy day
-    'partly-cloudy-day': "PartlySunny.png",  # partly cloudy day
-    'rain': "Rain.png",  # rain day
-    'snow': "Snow.png",  # snow day
-    'snow-thin': "Snow.png",  # sleet day
-    'fog': "Haze.png",  # fog day
-    'clear-night': "Moon.png",  # clear sky night
-    'partly-cloudy-night': "PartlyMoon.png",  # scattered clouds night
-    'thunderstorm': "Storm.png",  # thunderstorm
-    'tornado': "Tornado.png",  # tornado
-    'hail': "Hail.png"  # hail
+    'clear-day': "Images/Sun.png",  # clear sky day
+    'wind': "Images/Wind.png",  # wind
+    'cloudy': "Images/Cloud.png",  # cloudy day
+    'partly-cloudy-day': "Images/PartlySunny.png",  # partly cloudy day
+    'rain': "Images/Rain.png",  # rain day
+    'snow': "Images/Snow.png",  # snow day
+    'snow-thin': "Images/Snow.png",  # sleet day
+    'fog': "Images/Haze.png",  # fog day
+    'clear-night': "Images/Moon.png",  # clear sky night
+    'partly-cloudy-night': "PImages/artlyMoon.png",  # scattered clouds night
+    'thunderstorm': "Images/Storm.png",  # thunderstorm
+    'tornado': "Images/Tornado.png",  # tornado
+    'hail': "Images/Hail.png"  # hail
 }
 
 
