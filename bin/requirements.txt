@@ -38,7 +38,7 @@ python-dateutil==2.7.3
 pytz==2018.4
 pywin32-ctypes==0.1.2
 requests==2.20.0
-rsa==3.4.2
+rsa==4.1
 SecretStorage==3.0.1
 six==1.11.0
 speech-recognition==0.1
